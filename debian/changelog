@@ -1,0 +1,9 @@
+jcsclient (1.0.0) UNRELEASED; urgency=medium
+  [ JioCloudServices ]
+  * Initial release.
+
+  [ Ubuntu ]
+  * Build from custom git repo
+
+ -- JioCloudServices <JioCloudServices.All@ril.com>  Fri, 15 Apr 2016 10:51:36 +0530
+

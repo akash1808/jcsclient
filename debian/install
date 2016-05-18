@@ -1,0 +1,4 @@
+src/jcsclient usr/lib/python2.7/dist-packages
+openrc.sample etc/jcsclient
+README.rst    etc/jcsclient
+

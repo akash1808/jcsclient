@@ -1,0 +1,23 @@
+Source: jcsclient
+Priority: optional
+Section: misc
+Maintainer: JioCloud Services <jiocloudservices.team@rilcom>
+Build-Depends: python-setuptools, python-all, debhelper, python-pip
+Build-Depends-Indep: python-pbr (>= 0.6)
+Standards-Version: 3.9.6
+Homepage: https://github.com/JioCloudServices/jcsclient
+X-Python-Version: >= 2.7
+
+Package: python-jcsclient
+Architecture: all
+Section: python
+Depends: python,
+ python:any (>= 2.7.5-5~),
+ python-requests,
+ python-xmltodict,
+ python-six,
+ python-yaml,
+ python-crypto
+Description: JCS CLI
+ This makes jcs client debian package for all architectures
+
